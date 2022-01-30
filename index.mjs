@@ -6,7 +6,7 @@ const app = express()
 const PORT =process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('I am expres.js server')
+  res.send('I am expres.js server power by heroku and deploy by me')
 })
 
 app.get('/water', (req, res) => {
